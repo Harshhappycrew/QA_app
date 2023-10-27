@@ -9,7 +9,7 @@ from langchain import HuggingFacePipeline
 from langchain.embeddings import HuggingFaceInstructEmbeddings, HuggingFaceEmbeddings
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.llms import OpenAI
-from constants import *
+from Constants import *
 from transformers import AutoTokenizer
 import torch
 import os
